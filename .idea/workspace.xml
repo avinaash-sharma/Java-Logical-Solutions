@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b2ddb8-2184-423f-b834-87ae2edcc548" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice2/fibonacii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice2/fibonacii.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fibonacii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pyramidPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyramidPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursivePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursivePattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +41,16 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Development/DSA -java/git-clone/Java-Logical-Solutions&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.pyramidPrint">
-    <configuration name="coCubes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coCubes" />
+  <component name="RunManager" selected="Application.AdditonOfTwoNumbers">
+    <configuration name="AdditionOfTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdditionOfTwoNumbers" />
+      <module name="Practice2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdditonOfTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdditonOfTwoNumbers" />
       <module name="Practice2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,13 +58,6 @@
     </configuration>
     <configuration name="fibonacii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fibonacii" />
-      <module name="Practice2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern" />
       <module name="Practice2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdditonOfTwoNumbers" />
+        <item itemvalue="Application.AdditionOfTwoNumbers" />
+        <item itemvalue="Application.fibonacii" />
         <item itemvalue="Application.pyramidPrint" />
         <item itemvalue="Application.patternDynamic" />
-        <item itemvalue="Application.pattern" />
-        <item itemvalue="Application.fibonacii" />
-        <item itemvalue="Application.coCubes" />
       </list>
     </recent_temporary>
   </component>

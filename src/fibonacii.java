@@ -1,6 +1,9 @@
+import java.sql.Array;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class fibonacii {
+    ArrayList<Integer> array = new ArrayList<Integer>();
     public static void main(String[] args) {
 //        int a = 0, b = 1;
 //        int c = 0, input1 = 515;
@@ -24,10 +27,11 @@ public class fibonacii {
 //            b = c;
 //        }
 
-//        fibonacii fibonacii = new fibonacii();
-//        int n = 9, a = 0, b = 1;
-//        int i = fibonacii.fibonaciiRecursive( n);
-//        System.out.println(i);
+        fibonacii fibonacii = new fibonacii();
+        int n = 9, a = 0, b = 1;
+
+        int i = fibonacii.fibonaciiRecursive( n, a, b);
+        System.out.println(i);
 
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Enter a positive no: ");
@@ -39,9 +43,9 @@ public class fibonacii {
 //        fibonacii obj = new fibonacii();
 //        obj.function(st);
 
-        int n =3;
-        fibonacii obj = new fibonacii();
-        System.out.println(obj.sum(n));
+//        int n =3;
+//        fibonacii obj = new fibonacii();
+//        System.out.println(obj.sum(n));
     }
 
     public int sum (int n){
@@ -62,14 +66,26 @@ public class fibonacii {
             function(st.substring(0, st.length() - 1));
         }
     }
-    public int fibonaciiRecursive(int n){
+    public int fibonaciiRecursive(int n, int prevValue, int currentValue){
+        array.add(prevValue);
+        array.add(currentValue);
+        int count = 0;
+
         if(n == 1){
-            return 1;
+            return 0;
         }
         if(n == 0){
             return 0;
         }
-       return (fibonaciiRecursive(n-1) + fibonaciiRecursive(n-2))%10;
+//       return (fibonaciiRecursive() + fibonaciiRecursive(n-2))%10;
+
+        else if(count < n){
+            int newValue = currentValue + prevValue;
+            prevValue = currentValue;
+            currentValue = newValue;
+            return fibonaciiRecursive(count++, prevValue,currentValue);
+        }
+        return count;
     }
 
     public static int func(int n) {
